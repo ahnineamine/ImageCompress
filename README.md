@@ -9,6 +9,6 @@ JAR that reads images and compresses them in order to reduce the overall size to
 
 ## Config file  
 configuration file contains:  
-1.the directory of images to be compress  
+1.the directory of images to be compressed  
 2.the directory where to put the compressed images (the directory will be automatically created when the jar is successfully ran, so just specify whatever name you see fit)  
-3.the percentile of compression (ex:0.3f) //f is just java syntax for float
+3.the percentile of compression (ex:0.3f). Compression quality is a value between 0 and 1. //f is just java syntax for float
